@@ -1,11 +1,17 @@
-const electron = (window as any).require('electron');
-const { ipcRenderer, remote } = electron;
-const { getGlobal, shell } = remote;
+// let electron :any;
+// debugger
+// if(window.process){
+//    electron = (window as any).require('electron');
+// }
 
-export {
-  shell,
-  remote,
-  electron,
-  getGlobal,
-  ipcRenderer,
-};
+
+
+// const { ipcRenderer, remote } = electron;
+//   const { getGlobal, shell } = remote;
+//   export {
+//     shell,
+//     remote,
+//     electron,
+//     getGlobal,
+//     ipcRenderer,
+//   };

@@ -10,9 +10,8 @@ function createWindow() {
     height: 600,
     width: 800,
   });
-
+  mainWindow.webContents.openDevTools();
   setApplicationMenu();
-
   global.title = 'Yay! Welcome to umi-electron-typescript!';
 
   if (process.env.NODE_ENV === 'development') {

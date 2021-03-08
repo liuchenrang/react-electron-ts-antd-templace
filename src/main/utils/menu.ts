@@ -2,7 +2,7 @@
  * Top menu bar
  */
 import { Menu, MenuItemConstructorOptions, app } from 'electron';
-
+console.log("ddd")
 const template: MenuItemConstructorOptions[] = [
   {
     label: 'Edit',
@@ -13,21 +13,21 @@ const template: MenuItemConstructorOptions[] = [
       { role: 'cut' },
       { role: 'copy' },
       { role: 'paste' },
-      { role: 'pasteandmatchstyle' },
+      // { role: 'pasteandmatchstyle' },
       { role: 'delete' },
-      { role: 'selectall' },
+      // { role: 'selectall' },
     ],
   },
   {
     label: 'View',
     submenu: [
       { role: 'reload' },
-      { role: 'forcereload' },
-      { role: 'toggledevtools' },
+      // { role: 'forcereload' },
+      // { role: 'toggledevtools' },
       { type: 'separator' },
-      { role: 'resetzoom' },
-      { role: 'zoomin' },
-      { role: 'zoomout' },
+      // { role: 'resetzoom' },
+      // { role: 'zoomin' },
+      // { role: 'zoomout' },
       { type: 'separator' },
       { role: 'togglefullscreen' },
     ],

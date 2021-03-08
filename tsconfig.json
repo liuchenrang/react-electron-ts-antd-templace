@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES5",
+    "skipLibCheck": true,
     "moduleResolution": "node",
     "module": "commonjs",
     "lib": [
@@ -25,6 +26,12 @@
   },
   "include": [
     "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts",
   ],
   "extends": "./node_modules/electron-webpack/tsconfig-base.json"
 }
