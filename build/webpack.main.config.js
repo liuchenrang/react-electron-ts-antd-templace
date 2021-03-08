@@ -25,4 +25,5 @@ module.exports = merge.smart(baseConfig, {
     }),
   ],
   mode: 'development',
+  devtool: 'source-map',
 });

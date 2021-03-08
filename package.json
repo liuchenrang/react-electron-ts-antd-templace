@@ -82,6 +82,7 @@
     }
   },
   "dependencies": {
-    "antd": "^4.13.1"
+    "antd": "^4.13.1",
+    "source-map-support": "^0.5.19"
   }
 }
