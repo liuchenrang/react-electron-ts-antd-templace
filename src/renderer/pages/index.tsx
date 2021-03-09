@@ -1,4 +1,5 @@
 // import { getGlobal } from '../utils/electron';
+
 import { Button } from 'antd'
 function Index() {
   return (

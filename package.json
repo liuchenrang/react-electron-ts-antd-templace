@@ -54,6 +54,7 @@
     "email": "chongxinkaishi8188@gmail.com"
   },
   "devDependencies": {
+    "@umijs/preset-react": "^1.2.2",
     "awesome-typescript-loader": "^5.2.1",
     "concurrently": "^5.1.0",
     "electron": "10.1.2",
@@ -67,8 +68,7 @@
     "tslint": "^5.10.0",
     "typescript": "^3.2.4",
     "uglifyjs-webpack-plugin": "^2.1.1",
-    "umi": "^2.8.17",
-    "umi-plugin-react": "^1.9.15",
+    "umi": "^3.0.0",
     "webpack": "4.28.0",
     "webpack-cli": "^3.2.1",
     "webpack-merge": "^4.2.1"
@@ -82,7 +82,7 @@
     }
   },
   "dependencies": {
-    "antd": "^4.13.1",
-    "source-map-support": "^0.5.19"
+    "@ant-design/pro-layout": "^6.15.0",
+    "antd": "^4.13.1"
   }
 }
